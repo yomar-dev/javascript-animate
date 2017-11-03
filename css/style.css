@@ -1,0 +1,19 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.container{
+	border: 1px solid teal;
+	width: 600px;
+}
+
+
+.circulo{
+	background-color: teal;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
