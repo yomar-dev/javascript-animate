@@ -18,6 +18,11 @@ body{
 	width: 100px;
 }
 
+.buttons{
+	display: flex;
+	justify-content: center;
+}
+
 .btn{
 	text-align: center;
 	background: #7dc800;
