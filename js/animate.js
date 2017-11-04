@@ -25,3 +25,19 @@ const $playButton = document.getElementById('play');
 const $pauseButton = document.getElementById('pause');
 const $stopButton = document.getElementById('stop');
 const $reverseButton = document.getElementById('reverse');
+
+$playButton.addEventListener('click', (event) => {
+  animation.play();
+});
+
+$pauseButton.addEventListener('click', (event) => {
+  animation.pause();
+});
+
+$stopButton.addEventListener('click', (event) => {
+  animation.cancel();
+});
+
+$reverseButton.addEventListener('click', (event) => {
+  animation.reverse();
+});
