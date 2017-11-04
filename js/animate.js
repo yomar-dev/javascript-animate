@@ -1,7 +1,7 @@
 const $circulo = document.getElementById('circulo');
 
 // element.animate(keyframes = [], options = {})
-$circulo.animate([
+const animation = $circulo.animate([
 	//from
 	{
 		transform: 'translateX(0)'
@@ -20,3 +20,8 @@ $circulo.animate([
 	iterationsStart: .5,
 	//endDelay: 5000
 })
+
+const $playButton = document.getElementById('play');
+const $pauseButton = document.getElementById('pause');
+const $stopButton = document.getElementById('stop');
+const $reverseButton = document.getElementById('reverse');
